@@ -6,8 +6,6 @@ public class Main {
         utilities.clearScreen();
         utilities.setWindowTitle("Jihed Kdiss");
         System.out.println("Square animation:");
-        animations.square();
-        Thread.sleep(5000);
-        utilities.reset();
+        animations.square(5);
     }
 }
