@@ -6,6 +6,9 @@ public class utilities {
     }
 
     public static void setWindowTitle(String title) {
-        System.out.println("\033] 0 ; " + title + "\07");
+        System.out.println("\033]0;" + title + "\07");
+    }
+    public static void reset() {
+        System.out.print("\033[!p");
     }
 }

@@ -8,5 +8,6 @@ public class Main {
         System.out.println("Square animation:");
         animations.square();
         Thread.sleep(5000);
+        utilities.reset();
     }
 }
