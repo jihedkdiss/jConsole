@@ -28,4 +28,13 @@ public class utilities {
     public static void home() {
         System.out.println("\033[H");
     }
+    public static void eraseUp() {
+        System.out.println("\033[1J");
+    }
+    public static void eraseDown() {
+        System.out.println("\033[J");
+    }
+    public static void eraseScreen() {
+        System.out.println("\033[2J");
+    }
 }
